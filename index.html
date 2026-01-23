@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carlos Bastida | Desarrollador Web Freelancer</title>
+    <meta name="description" content="Diseño y desarrollo sitios web rápido y a medida para negocios. Especialista en Landing Pages de alta conversión en HTML y CSS.">
+    <meta name="keywords" content="desarrollador web, freelancer, landign page, diseño web, HTML, CSS, programador, sitios web rápidos">
+    <meta name="author" content="Carlos Bastida">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="webiste">
+    <meta property="og:url" content="webiste"> <meta property="og:title" content="Carlos Bastida | Desarrollador Web Freelancer">
+    <meta property="og:description" content="Ayudo a negocios a vender más con sitios web rápidos y modernos">
+    <meta property="og:image" content="" > <meta name="titter:card" content="sumary_large_image">
+    <meta name="twitter:title" content="Carlos Bastida | Desarrollador Web">
+    <meta name="twitter:description" content="Sitios web de alto rendimiento para tu negocio">
+    <meta name="twitter:image" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+         <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#">Carlos Bastida</a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galeria" class="nav-link">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+         </nav>
+    </header>
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Hero section -->
+         <section id="inicio" class="section hero-section">
+            <div class="hero-content">
+                <div class="hero-text-container">
+                <header class="hero-header">
+                    <h1 class="hero-title">Tu sitio web profesional, rápido y bien diseñado desde el primer día</h1>
+                    <p class="hero-description">Creo sitios web ultrarrápidos que convierten visitantes en clientes. Diseño 100% a medida, sin plantillas pesadas que ralenticen tu negocio.
+</p>
+                <div class="hero-btn">
+                    <a href="#servicios" class="btn cta-btn">Explorar paquetes</a>
+                </div>
+                </header>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-glow"></div>
+    
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                <div class="window-body">
+                    <code>
+                        <div class="code-line"><span class="c-purple">.proyecto</span> {</div>
+                        <div class="code-line indent">  <span class="c-blue">status</span>: <span class="c-orange">"listo"</span>;</div>
+                        <div class="code-line indent">  <span class="c-blue">rendimiento</span>: <span class="c-orange">100%</span>;</div>
+                        <div class="code-line">}</div>
+                        <div class="code-line"><span class="c-grey">// Tu sitio cargará al instante</span></div>
+                        <div class="code-line"><span class="c-purple">const</span> <span class="c-blue">freelance</span> = <span class="c-yellow">true</span>;</div>
+                    </code>
+                </div>
+                </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- gallery section -->
+         <section id="galeria" class="section gallery-section">
+            <div class="gallery-content">
+                <header class="gallery-header">
+                    <h2 class="gallery-title">Explora mi trabajo</h2>
+                    <p class="gallery-description">Proyectos demostrativos en los que muestro la calidad y atención al detalle que pongo en cada trabajo</p>
+                </header>
+
+                <div class="gallery-grid">
+                    <figure class="card">
+                        <header class="card-header">
+                            <img
+                             src="assets/coffe-400.webp"
+                             srcset="
+                                assets/coffe-400.webp 400w,
+                                assets/coffe-800.webp 800w,
+                                assets/coffe-1200.webp 1200w
+                             "
+                             sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+                             alt="Web Ritual Café" 
+                             loading="lazy"
+                             class="card-img">
+                        </header>
+                        <div class="card-content">
+                            <figcaption class="description">
+                                <h3 class="card-title">Ritual Café | <span class="concept">Concept Project</span></h3>
+                                <p class="card-description">Landing page inmersiva diseñada para convertir visitas web en visitas físicas. Enfoque en SEO local y un menú digital optimizado para carga instantánea en móviles, mejorando la experiencia del cliente antes de llegar al local.
+</p>
+                            </figcaption>
+                            <div class="tag-container">
+                                <span class="tag">HTML 5</span>
+                                <span class="tag">CSS Grid</span>
+                                <span class="tag">Responsive</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://bastidacarlos.github.io/Ritual-Caf-/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Ver Proyecto</a>
+                                <a href="https://github.com/BastidaCarlos/Ritual-Caf-" target="_blank"  rel="noopener noreferrer" class="btn-link">Código</a>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <figure class="card">
+                        <header class="card-header">
+                            <img
+                             src="assets/rivera-400.webp"
+                             srcset="
+                                assets/rivera-400.webp 400w,
+                                assets/rivera-800.webp 800w,
+                                assets/rivera-1200.webp 1200w
+                             "
+                             sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+                             alt="Web Rivera Photographer" 
+                             loading="lazy"
+                             class="card-img">
+                        </header>
+                        <div class="card-content">
+                            <figcaption class="description">
+                                <h3 class="card-title">Rivera Photographer | <span class="concept">Concept Project</span></h3>
+                                <p class="card-description">Portafolio de alto impacto visual sin sacrificar velocidad. Implementé técnicas avanzadas de compresión de imágenes para garantizar que la galería cargue al instante, reteniendo la atención de posibles clientes sin distracciones.
+</p>
+                            </figcaption>
+                            <div class="tag-container">
+                                <span class="tag">HTML 5</span>
+                                <span class="tag">CSS Grid</span>
+                                <span class="tag">Responsive</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://bastidacarlos.github.io/Rivera-Photographer/#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Ver Proyecto</a>
+                                <a href="https://github.com/BastidaCarlos/Rivera-Photographer" target="_blank" rel="noopener noreferrer" class="btn-link">Código</a>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <figure class="card">
+                        <header class="card-header">
+                            <img
+                             src="assets/ASI-400.webp"
+                             srcset="
+                                assets/ASI-400.webp 400w,
+                                assets/ASI-800.webp 800w,
+                                assets/ASI-1200.webp 1200w
+                             "
+                             sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+                             alt="Web ASI" 
+                             loading="lazy"
+                             class="card-img">
+                        </header>
+                        <div class="card-content">
+                            <figcaption class="description">
+                                <h3 class="card-title">ASI Clínica | <span class="concept">Concept Project</span></h3>
+                                <p class="card-description">Web corporativa enfocada en transmitir autoridad médica y confianza. Estructura de información clara para guiar al paciente desde la duda hasta el contacto, priorizando la accesibilidad y la seriedad que una clínica necesita.</p>
+                            </figcaption>
+                            <div class="tag-container">
+                                <span class="tag">HTML 5</span>
+                                <span class="tag">CSS Grid</span>
+                                <span class="tag">Responsive</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://bastidacarlos.github.io/asi/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Ver Proyecto</a>
+                                <a href="https://github.com/BastidaCarlos/asi" target="_blank" rel="noopener noreferrer" class="btn-link">Código</a>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+         </section>
+
+         <section id="servicios" class="section pricing-section">
+            <header class="pricing-header">
+                <h2 class="pricing-title">Paquetes de Desarrollo Web</h2>
+                <p class="pricing-description">Elige la opción que mejor se adapte a tu proyecto</p>
+            </header>
+            <div class="pricing-grid">
+                    <article class="pricing-card">
+                        <h3 class="pricing-card-title">Essential</h3>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature-item">1 página</li>
+                            <li class="pricing-feature-item">Diseño Responsive</li>
+                            <li class="pricing-feature-item">Estructura Básica</li>
+                        </ul>
+                        <span class="price">$199 USD</span>
+                        <a href="#essential" class="pricing-btn">Ver más</a>
+                    </article>
+
+                    <article class="pricing-card">
+                        <h3 class="pricing-card-title">One Page</h3>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature-item">1 página avanzada</li>
+                            <li class="pricing-feature-item">Diseño Responsive</li>
+                            <li class="pricing-feature-item">Estructura optimizada</li>
+                        </ul>
+                        <span class="price">$249 USD</span>
+                        <a href="#one-page" class="pricing-btn">Ver más</a>
+                    </article>
+
+                    <article class="pricing-card">
+                        <h3 class="pricing-card-title">Multi Page</h3>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature-item">3 páginas</li>
+                            <li class="pricing-feature-item">Diseño Responsive</li>
+                            <li class="pricing-feature-item">Estructura profesional</li>
+                        </ul>
+                        <span class="price">$249 USD</span>
+                        <a href="#multi-page" class="pricing-btn">Ver más</a>
+                    </article>
+            </div>
+         </section>
+
+         <!-- Services Section -->
+          <section class="section services-section">
+            <h2 class="services-grid-title">Paquetes</h2>
+            <div class="services-content">
+                <div class="services-grid">
+                    <div class="main-services-grid">
+                        <article id="essential" class="service-card">
+                            <header class="card-header">
+                                <h3 class="service-title">Essential</h3>
+                                <span class="price">$199 USD</span>
+                            </header>
+                            <div class="card-body">
+                                <h4 class="card-description-title">Justo lo que necesitas para dar el primer paso digital</h4>
+                                <p class="service-description">
+                                    ¿Quieres tener presencia digital, pero con presupuesto limitado? Este paquete incluye todo lo esencial para que destaques en línea. Ideal para emprendedores, freelancers y pequeños negocios que quieren comenzar con fuerza en el mundo digital.
+                                </p>
+                                <div class="includes">
+                                    <h5 class="subtitle-card">Incluye:</h5>
+                                    <p class="features">
+                                        One page totalmente responsive | 4 - 5 secciones (Inicio, Servicios, Sobre, Contacto) | Integracion con Google Maps | Diseño moderno | Optimización para móviles y tablets | Entrega en 7 días hábiles +  15 días de soporte
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="one-page" class="service-card">
+                            <header class="card-header">
+                                <h3 class="service-title">One Page</h3>
+                                <span class="price">$249 USD</span>
+                            </header>
+                            <div class="card-body">
+                                <h4 class="card-description-title">Producto más popular - Relación calidad precio</h4>
+                                <p class="service-description">
+                                    Diseño personalizado, efectos visuales sutiles y una experiencia de usuario fluida. Perfecto para negocios establecidos que busquen destacar.
+                                </p>
+                                <div class="includes">
+                                    <h5 class="subtitle-card">Incluye:</h5>
+                                    <p class="features">
+                                        One page con diseño personalizado | 6 - 8 secciones con animaciones | Galería de imágenes o videos integrada | Formulario con validación en tiempo real | SEO básico | Integración con WhatsApp para conversaciones inmediatas | Optimización para todos los dispositivos | Entrega en 10 días hábiles +  30 días de soporte
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article id="multi-page" class="service-card">
+                            <header class="card-header">
+                                <h3 class="service-title">Multi Page</h3>
+                                <span class="price">$499 USD</span>
+                            </header>
+                            <div class="card-body">
+                                <h4 class="card-description-title">Amplía tu presencia digital con un sitio completo</h4>
+                                <p class="service-description">
+                                    Diseñado para negocios que necesitan organizar su contenido en secciones claras y accesibles. Sitio web profesional con navegación intuitiva que guía a tus clientes desde el descubrimiento hasta el contacto.
+                                </p>
+                                <div class="includes">
+                                    <h5 class="subtitle-card">Incluye:</h5>
+                                    <p class="features">
+                                        3 páginas principales (Inicio, Servicios, Contacto) | Diseño consistente y navegación fluida entre páginas | Galería o portafolio integrado para mostrar tu trabajo | SEO optimizado con estructura semántica correcta | Formularios estratégicos en cada página relevante | Velocidad de carga optimizada | Entrega en 14 días hábiles +  45 días de soporte
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="secondary-services-container">
+                        <header class="secondary-header">
+                            <h3 class="secondary-services-title">¿Ya cuentas con un diseño? Lo convierto en código.</h3>
+                            <p class="secondary-services-description">Si ya cuentas con un diseño en Figma, Adobe, Photoshop o incluso un boceto, lo transformo en un sitio web funcional, responsive y optimizado.</p>
+                            <h4 class="secondary-services-subtitle">Paquetes disponibles:</h4>
+                        </header>
+                        <div class="secondary-services-grid">
+                            <article class="service-card secondary-services">
+                                <header class="secondary-services-header">
+                                    <h3 class="secondary-card-title">Maquetación básica </h3>
+                                    <span class="price">$199 USD</span>
+                                </header>
+                                <ul class="features-list">
+                                    <li class="feature-item">Conversión de diseño a HTML/CSS puro</li>
+                                    <li class="feature-item">1 Página responsive</li>
+                                    <li class="feature-item">Estructura semántica HTML5</li>
+                                    <li class="feature-item">Código limpio</li>
+                                    <li class="feature-item">Entrega en 5 días hábiles</li>
+                                </ul>
+                            </article>
+
+                            <article class="service-card secondary-services">
+                                <header class="secondary-services-header">
+                                    <h3 class="secondary-card-title">Maquetación Completa </h3>
+                                    <span class="price">$349 USD</span>
+                                </header>
+                                <ul class="features-list">
+                                    <li class="feature-item">Hasta 3 páginas maquetadas</li>
+                                    <li class="feature-item">HTML/CSS semántico y optimizado</li>
+                                    <li class="feature-item">Interacciones y efectos según diseño</li>
+                                    <li class="feature-item">Optimización de imágenes incluida</li>
+                                    <li class="feature-item">Código organizado y reutilizable</li>
+                                    <li class="feature-item">Entrega en 10 días hábiles</li>
+                                </ul>
+                            </article>
+
+                            <article class="service-card secondary-services">
+                                <header class="secondary-services-header">
+                                    <h3 class="secondary-card-title">Maquetación Premium </h3>
+                                    <span class="price">$399 USD</span>
+                                </header>
+                                <ul class="features-list">
+                                    <li class="feature-item">Hasta 5 páginas maquetadas</li>
+                                    <li class="feature-item">Animaciones CSS avanzadas</li>
+                                    <li class="feature-item">Optimización de rendimiento</li>
+                                    <li class="feature-item">Validación de formularios</li>
+                                    <li class="feature-item">Compatibilidad cross-browser</li>
+                                    <li class="feature-item">Documentación del código</li>
+                                    <li class="feature-item">Revisión y ajustes incluidos</li>
+                                    <li class="feature-item">Entrega en 14 días hábiles</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+           <section id="contacto" class="section contact-section">
+            <div class="contact-content">
+                <header class="contact-header">
+                    <h2 class="contact-title">Trabajemos juntos</h2>
+                    <p class="contact-description">
+                        ¿No encuentras lo que buscas? Contáctame para una consulta personalizada. Todos los paquetes se pueden ajustar o crear una solución personalizada para tu proyecto.
+                    </p>
+                </header>
+                <div class="contact-form">
+                    <h3 class="contact-form-title">Formulario de contacto</h3>
+                    <form action="https://formspree.io/f/mwvlqopw" method="POST" class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="number" class="form-label">Teléfono</label>
+                            <input type="tel" id="number" name="number" class="form-input" placeholder="5512345678" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje" class="form-label">Cuéntame sobre tu proyecto</label>
+                            <textarea name="mensaje" id="mensaje" class="form-textarea" cols="30" rows="10" placeholder="Describe tu proyecto aquí..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                    <div id="form-success" class="form-success-container" style="display: none;">
+                        <div class="success-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currenColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                           </svg>
+                        </div>
+                        <h3 class="success-title">¡Mensaje enviado con éxito!</h3>
+                        <p class="success-text">Gracias por contactarme. Te responderé en menos de 24 horas para platicar sobre tu proyecto</p>
+                        <button type="button" class="btn btn-secondary" onclick="resetForm()">Enviar otro mensaje</button>
+                    </div>
+                </div>
+            </div>
+           </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">Carlos Bastida <span class="accent">|</span> Dev</a>
+                <p class="footer-tagline">Desarrollo web de alto rendimiento para negocios que no se detienen.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#paquetes">Paquetes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Conectemos</h4>
+                <div class="social-icons">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Carlos Bastida. Todos los derechos reservados.</p>
+                <div class="tech-stack">
+                    <span>Built with</span>
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">Vanilla JS</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+     <script>
+        // Navbar scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrolllY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // JavaScript para funcionalidad del navbar
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // Funcion para cerrar el menu 
+        const closeMenu = () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Alternar menu 
+        hamburger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+
+            // Prevenir scroll cuando esta abierto
+            if (navMenu.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Cerrar el menu al hacer click en un enlace 
+        navLinks.forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+
+        // Cerrar el menu al hacer click fuera 
+        document.addEventListener('click',(e) => {
+            if (!e.target.closest('.nav-container') && navMenu.classList.contains('active')) {
+                closeMenu();
+            }
+        });
+
+        // Cerrar al redimensionar ventana 
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768 && navMenu.classList.contains('active')) {
+                closeMenu();
+            }
+        });
+
+        // Envio del formulario
+        const contactForm = document.querySelector('.form');
+        const succesMessage = document.getElementById('form-success');
+        const formTitle = document.querySelector('.contact-form-title');
+
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formEndpoint = "https://formspree.io/f/mwvlqopw";
+
+            const data = new FormData(contactForm);
+
+            try {
+                const response = await fetch(formEndpoint, {
+                    method: contactForm.method,
+                    body: data,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    contactForm.style.display = 'none';
+                    formTitle.style.display = 'none';
+                    succesMessage.style.display = 'block';
+                    contactForm.reset();
+                } else {
+                    alert("Hubo un problema al enviar el mensaje. Intenta de nuevo.")
+                } 
+            } catch (error) {
+                alert("Error de conexión. Por favor verifica tu internet.")
+            }
+        });
+
+     </script>
+</body>
+</html>
