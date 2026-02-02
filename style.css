@@ -69,6 +69,23 @@ a {
     text-decoration: none;
 }
 
+.btn-nav-whatsapp {
+    background-color: rgb(37, 211, 102); /* Verde WhatsApp o tu Naranja de marca */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.btn-nav-whatsapp:hover {
+    background-color: #128c7e; /* Un tono más oscuro al pasar el mouse */
+    transform: translateY(-2px);
+}
+
 /* buttons */
 .btn {
     display: inline-block;
@@ -1035,6 +1052,29 @@ a {
     background: rgba(245, 158, 11, 0.2);
     border-color: var(--accent-color);
     transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px; /* Separación del borde inferior */
+    right: 20px;  /* Separación del borde derecho */
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000; /* Para que nada lo tape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    transform: scale(1.1); /* Efecto visual al pasar el mouse */
 }
 
 /* Animaciones */
